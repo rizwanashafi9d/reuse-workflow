@@ -1,0 +1,8 @@
+name: reusable workflow
+'on':
+  push: 
+    branch: main
+
+jobs:
+  call-demo:
+    uses: https://github.com/rizwanashafi9d/Action-demo/blob/main/.github/workflows/superlinter.yml@main
