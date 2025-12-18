@@ -1,13 +1,12 @@
 name: Reusable Workflow
 'on':
-  workflow_call:
+  workflow_call: null
 jobs:
   reusable-job:
     runs-on: ubuntu-latest
     steps:
       - name: Say hello
         run: echo "This is running from REUSABLE repo"
-
   reusable-job-2:
     runs-on: ubuntu-latest
     steps:
