@@ -7,3 +7,6 @@ jobs:
     steps:
       - name: Say hello
         run: echo "This is running from REUSABLE repo"
+
+      - name: hello
+        run: echo "hello world"
