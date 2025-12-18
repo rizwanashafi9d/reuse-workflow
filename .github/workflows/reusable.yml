@@ -1,9 +1,6 @@
 name: Reusable Workflow
 'on':
-  workflow_call: 
-    secrets:
-      PERSONAL_TOKEN: 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
-        required: true
+  workflow_call: null
 jobs:
   reusable-job:
     runs-on: ubuntu-latest
