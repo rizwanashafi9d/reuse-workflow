@@ -10,5 +10,5 @@ jobs:
   reusable-job-2:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello world
+      - name: Hello
         run: echo "hello world"
